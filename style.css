@@ -1,0 +1,200 @@
+:root {
+    --azul-escuro: #232370;
+    --cinza-escuro: #38383A;
+    --preto: #1E1E1E;
+    --laranja: #E56000;
+    --branco: #FFFFFF;
+    --creme: #FFF4D8;
+    --fonteprincipal: 'Poppins';
+    --fontetitulos: 'Rubik';
+}
+
+.fundo-principal {
+    background-image: linear-gradient(to bottom right, #9AB0FD, #FFF4D8);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+.menu-logo {
+    padding-left: 2.5em;
+    margin: 1em 1em 1em 2em;
+}
+
+.menu-cabecalho {
+    flex: auto;
+    text-align: center;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-family: var(--fonteprincipal);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0 1em;
+}
+
+.principal {
+    margin: 0;
+}
+
+.parte-um {
+    text-align: center;
+    display: flex;
+    margin: 2em 1em;
+    padding: 0.5em;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+.conteudo-inicio {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.titulo-inicio{
+    font-family: var(--fontetitulos);
+    font-size: 3.75rem;
+    line-height: 4.35rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--azul-escuro);
+    text-align: left;
+    margin: 0 0 0.5em 0;
+}
+
+.texto-inicio {
+    font-family: var(--fonteprincipal);
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    color: var(--cinza-escuro);
+    margin: 0 0 2em 0;
+}
+
+.foto-inicio {
+    max-width: 682px;
+}
+
+.inscricao {
+    display: flex;
+    gap: 1em;
+}
+
+.email-inscricao {
+    background: url(../Skills2You/Assets/email.svg) no-repeat;
+    background-position: 1em;
+    background-color: var(--branco);
+    height: 2rem;
+    width: 25rem;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em;
+    text-align: center;
+    color: var(--preto);
+    font-family: var(--fonteprincipal);
+    font-size: 1.5rem;
+    font-weight: 400;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.botao {
+    color: var(--branco);
+    font-family: var(--fonteprincipal);
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.linha-de-containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 1em 1em 0.5em;
+    padding: 1em 0;
+    gap: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--creme);
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    height: 230px;
+    width: 173px;
+    justify-content: center;
+}
+
+.container-icone {
+    max-height: 80px;
+    width:fit-content;
+    margin: 0.5em;
+}
+
+.container-texto {
+    font-family: var(--fonteprincipal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--cinza-escuro);
+    margin: 0.5em;
+}
+
+
+.parte-dois {
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1em;
+    margin: 5em 0 0 0;
+}
+
+.conteudo-parte-dois {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-parte-dois {
+    font-family: var(--fontetitulos);
+    font-size: 3.35rem;
+    color: var(--branco);
+    margin: 1em 0 1em 1em;
+}
+
+.texto-parte-dois {
+    font-family: var(--fonteprincipal);
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5em 0.5em 1em 2em;
+}
+
+.foto-parte-dois {
+    max-height: 576px;
+}
+
+.botao-2 {
+    color: var(--branco);
+    font-family: var(--fonteprincipal);
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    margin: 1em 1em 1em 2em; 
+}
+
